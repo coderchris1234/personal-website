@@ -50,6 +50,41 @@ nav ul li a {
     display: block;
 }
 
+.active{
+    color: white;
+}
+
 nav ul li a:hover {
-    color: #c0d96f;
+    color: white;
+}
+
+#about{
+    background-color: whitesmoke;
+}
+
+.content{
+    padding: 10px;
+    width: 50%;
+}
+
+.content p{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+.education{
+    color: darkgray;
+}
+
+.school-date{
+    border-bottom: 1px solid darkgray;
+}
+
+.footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer li a{
+    text-decoration: none;
 }
